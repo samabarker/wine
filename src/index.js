@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import CardList from './CardList';
+import { wine } from './wines';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+                <div className="container">
+                  <div className="row justify-content-center">
+                    <div className="col text-center p-5"><h1 className="display-1 fw-bolder">Which Wine?</h1></div>
+                  </div>
+                  <div className="row justify-content-center">
+                    <CardList wine={wine}/>
+                  </div>
+                  <div className="row justify-content-center">
+                    <div className="col text-center p-5">https://media.winefolly.com/AF-Poster.png</div>
+                  </div>
+                </div>
+                , document.getElementById('root'));
+
+
