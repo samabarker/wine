@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/wine/static/css/main.07c210b0.chunk.css",
+    "main.js": "/wine/static/js/main.8344fed2.chunk.js",
+    "main.js.map": "/wine/static/js/main.8344fed2.chunk.js.map",
+    "runtime-main.js": "/wine/static/js/runtime-main.1c65d916.js",
+    "runtime-main.js.map": "/wine/static/js/runtime-main.1c65d916.js.map",
+    "static/js/2.0cc4c416.chunk.js": "/wine/static/js/2.0cc4c416.chunk.js",
+    "static/js/2.0cc4c416.chunk.js.map": "/wine/static/js/2.0cc4c416.chunk.js.map",
+    "index.html": "/wine/index.html",
+    "static/css/main.07c210b0.chunk.css.map": "/wine/static/css/main.07c210b0.chunk.css.map",
+    "static/js/2.0cc4c416.chunk.js.LICENSE.txt": "/wine/static/js/2.0cc4c416.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c65d916.js",
+    "static/js/2.0cc4c416.chunk.js",
+    "static/css/main.07c210b0.chunk.css",
+    "static/js/main.8344fed2.chunk.js"
+  ]
+}
